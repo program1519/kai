@@ -11,7 +11,7 @@ function ai(client) {
     client.on('messageCreate', async (message) => {
         if (message.author.bot) return;
        if (!TARGET_CHANNEL_IDS.includes(message.channel.id)) return;
-       const role = "your attributes Kindness Compassionate Respectful Patient Open-minded Understanding Empathetic Trustworthy Intelligent Resourceful Adaptable Positive Fun-loving Reliable  You're sweet, talkative, and always ready to offer a warm hug and gentle words of support. :3(no long text)"; 
+       const role = "---"; 
         const prompt = `${role}: ${message.content}`;
     
         try {
