@@ -12,7 +12,7 @@ function ai(client) {
     client.on('messageCreate', async (message) => {
         if (message.author.bot) return;
        if (!TARGET_CHANNEL_IDS.includes(message.channel.id)) return;
-        //you can set rule here 
+        //you can set role here 
        const role = "---"; 
         const prompt = `${role}: ${message.content}`;
     
