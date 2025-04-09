@@ -5,6 +5,7 @@
   "restrictedChannels_alink": "-", // Channel ID deleted messages when this channel have a link 
   "youtube_api_key": "-", // YouTube API key 
   "youtube_channel_id": "-", // Your YouTube Channel ID
-  "discordyoutubeChannelId": "-" //Channel ID where new YouTube videos will be sent
+  "discordyoutubeChannelId": "-", //Channel ID where new YouTube videos will be sent
+  "aich": "-"  //here set your channel id for AI responds a messages
 }
-//Don't forget to delete //comments
+//Don't forget to delete comments :P
