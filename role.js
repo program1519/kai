@@ -1,4 +1,3 @@
-   //add role to someone who join the server
    function role(client) {
     console.log('role.js is loaded');
   
