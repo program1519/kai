@@ -5,7 +5,7 @@
 <p>Don't forget to confix `index.js` and `config.json`</p>
 <img src="https://i.imgur.com/rVuhgsc.png">
 <img src="https://i.imgur.com/K4P3oGn.png">
-
+###need node .js 16+
 
 Install all dependencies 
 ```
