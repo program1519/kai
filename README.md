@@ -5,12 +5,12 @@
 <p>confix on index.js and confix.json</p>
 <img src="https://i.imgur.com/rVuhgsc.png">
 <img src="https://i.imgur.com/K4P3oGn.png">
-```
 
 
+Install all dependencies 
 ```
-npm i 
+npm install
 ```
-
+Start the bot
 ```
-node .
+node index.js
