@@ -1,7 +1,6 @@
    function role(client) {
     console.log('role.js is loaded');
-  
-    client.on("guildMemberAdd", (member) => {
+  client.on("guildMemberAdd", (member) => {
       const guild = member.guild;
        //set "name" role to auto add
       const Role = guild.roles.cache.find((role) => role.name === "name");
