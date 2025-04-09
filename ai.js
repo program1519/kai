@@ -1,12 +1,12 @@
 //ai 
 function ai(client) {
+     const config = require('./config.json'); 
     console.log('ai .js is loaded');
     const { GoogleGenerativeAI } = require('@google/generative-ai');
     const config = require('./config.json');
     const genAI = new GoogleGenerativeAI(config.ai); 
     const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
-    //here set your channel id for bot reply your message 
-    const TARGET_CHANNEL_IDS = ['-', '-', '-'];
+    const TARGET_CHANNEL_IDS = (config.aich);
     
     
     client.on('messageCreate', async (message) => {
