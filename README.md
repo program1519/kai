@@ -6,6 +6,12 @@
 <img src="https://i.imgur.com/rVuhgsc.png">
 <img src="https://i.imgur.com/K4P3oGn.png">
 ```
+
+```
+```
+
+```
+```
 npm i 
 ```
 ```
