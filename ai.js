@@ -5,12 +5,14 @@ function ai(client) {
     const config = require('./config.json');
     const genAI = new GoogleGenerativeAI(config.ai); 
     const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
-    const TARGET_CHANNEL_IDS = ['1306281117254422629', '1342165246244032512', '1003260873785225289'];
+    //here set your channel id for bot reply your message 
+    const TARGET_CHANNEL_IDS = ['-', '-', '-'];
     
     
     client.on('messageCreate', async (message) => {
         if (message.author.bot) return;
        if (!TARGET_CHANNEL_IDS.includes(message.channel.id)) return;
+        //you can set rule here 
        const role = "---"; 
         const prompt = `${role}: ${message.content}`;
     
