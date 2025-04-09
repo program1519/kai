@@ -1,5 +1,3 @@
-//  deleted messages have a link and the user is not allowed to send links in that channel
-//  and send a message to the user who sent the deleted message and log the deleted message in a log channel
 function url(client) {
     const config = require('./config.json'); 
     console.log('url.js is loaded');
