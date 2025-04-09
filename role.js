@@ -4,16 +4,17 @@
   
     client.on("guildMemberAdd", (member) => {
       const guild = member.guild;
-      const fanRole = guild.roles.cache.find((role) => role.name === "fan");
-      const peopleRole = guild.roles.cache.find((role) => role.name === "People");
+       //set "name" role to auto add
+      const Role = guild.roles.cache.find((role) => role.name === "name");
+      const Role1 = guild.roles.cache.find((role) => role.name === "name");
     
-      if (!fanRole || !peopleRole) {
+      if (!Role || !Role1) {
         console.error("no add Role");
         return;
       }
     
-      member.roles.add([fanRole, peopleRole])
-        .then(() => console.log(" add role!"))
+      member.roles.add([Role,Role1])
+        .then(() => console.log("add role!"))
         .catch((error) => console.error(error));
     });
    
