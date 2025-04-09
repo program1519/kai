@@ -7,13 +7,10 @@
 <img src="https://i.imgur.com/K4P3oGn.png">
 ```
 
-```
-```
 
-```
 ```
 npm i 
 ```
+
 ```
 node .
-```
