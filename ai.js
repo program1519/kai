@@ -3,7 +3,6 @@ function ai(client) {
      const config = require('./config.json'); 
     console.log('ai .js is loaded');
     const { GoogleGenerativeAI } = require('@google/generative-ai');
-    const config = require('./config.json');
     const genAI = new GoogleGenerativeAI(config.ai); 
     const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
     const TARGET_CHANNEL_IDS = (config.aich);
