@@ -1,6 +1,6 @@
 {
   "token": "-", // Bot token (used to log in your Discord bot)
-  "ai_key": "-", // AI key (google gemini api)
+  "ai": "-", // AI key (google gemini api)
   "logChannelId": "-", // Channel ID where the bot will send logs (e.g., message deletions)
   "restrictedChannels_alink": "-", // Channel ID deleted messages when this channel have a link 
   "youtube_api_key": "-", // YouTube API key 
