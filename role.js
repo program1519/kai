@@ -1,5 +1,6 @@
    function role(client) {
     console.log('role.js is loaded');
+     const config = require('./config.json');
   client.on("guildMemberAdd", (member) => {
       const guild = member.guild;
        //set "name" role to auto add

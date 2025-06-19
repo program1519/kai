@@ -9,7 +9,7 @@ const handleURLMessage = (message) => {
 
   if (restrictedChannels.includes(message.channel.id) && containsURL(message.content)) {
     const member = message.guild.members.cache.get(message.author.id);
-    const allowedRoles = ["OWNER", "CO-OWNER", "MODERATOR", "YOUTUBERS"];
+    const allowedRoles = (config.allowedRoles);
     
     if (!member.roles.cache.some((role) => allowedRoles.includes(role.name))) {
       message.author.send("ขออภัย ไม่อนุญาตให้ส่ง URL ในช่องนี้");
